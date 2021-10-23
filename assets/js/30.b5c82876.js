@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[30],{704:function(t,e,n){"use strict";n.r(e);var s=n(16),l=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("花生壳建立转发，如果连接不上，可以试试重启花生壳客户端")])])}),[],!1,null,null,null);e.default=l.exports}}]);
