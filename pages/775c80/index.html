@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>待学习 | Colderleo&#39;s blog</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="icon" href="/img/favicon.ico">
+    <script data-ad-client="ca-pub-7828333725993554" async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta name="description" content="编程技术博客,Linux,C++,Python,JavaScript,js,vue,css3,html5等技术文章。">
+    <meta name="keywords" content="编程技术博客,Linux,C++,Python,前端,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown">
+    <meta name="baidu-site-verification" content="7F55weZDDc">
+    <meta name="theme-color" content="#11a8cd">
+    
+    <link rel="preload" href="/assets/css/0.styles.42699431.css" as="style"><link rel="preload" href="/assets/js/app.acb122c8.js" as="script"><link rel="preload" href="/assets/js/2.a45f491a.js" as="script"><link rel="preload" href="/assets/js/338.c50c6175.js" as="script"><link rel="prefetch" href="/assets/js/10.eeb4e20b.js"><link rel="prefetch" href="/assets/js/100.8b611939.js"><link rel="prefetch" href="/assets/js/101.9b93e746.js"><link rel="prefetch" href="/assets/js/102.2c243c36.js"><link rel="prefetch" href="/assets/js/103.489add46.js"><link rel="prefetch" href="/assets/js/104.9b257ade.js"><link rel="prefetch" href="/assets/js/105.49c27867.js"><link rel="prefetch" href="/assets/js/106.3f182c72.js"><link rel="prefetch" href="/assets/js/107.eb4b1cac.js"><link rel="prefetch" href="/assets/js/108.74da82a5.js"><link rel="prefetch" href="/assets/js/109.f7fc658c.js"><link rel="prefetch" href="/assets/js/11.c45cc2a7.js"><link rel="prefetch" href="/assets/js/110.e23119c3.js"><link rel="prefetch" href="/assets/js/111.83caa274.js"><link rel="prefetch" href="/assets/js/112.ce0e76fe.js"><link rel="prefetch" href="/assets/js/113.734eb2fa.js"><link rel="prefetch" href="/assets/js/114.c3523882.js"><link rel="prefetch" href="/assets/js/115.fb535563.js"><link rel="prefetch" href="/assets/js/116.cb9c79fe.js"><link rel="prefetch" href="/assets/js/117.2e215b04.js"><link rel="prefetch" href="/assets/js/118.466e0a41.js"><link rel="prefetch" href="/assets/js/119.348a03cd.js"><link rel="prefetch" href="/assets/js/12.143ce6d3.js"><link rel="prefetch" href="/assets/js/120.0dffa3d0.js"><link rel="prefetch" href="/assets/js/121.a1cb5532.js"><link rel="prefetch" href="/assets/js/122.d102d59e.js"><link rel="prefetch" href="/assets/js/123.40e4095a.js"><link rel="prefetch" href="/assets/js/124.3efe8750.js"><link rel="prefetch" href="/assets/js/125.f34838ae.js"><link rel="prefetch" href="/assets/js/126.5bcdf045.js"><link rel="prefetch" href="/assets/js/127.81e463b5.js"><link rel="prefetch" href="/assets/js/128.13ce009b.js"><link rel="prefetch" href="/assets/js/129.d8383dd4.js"><link rel="prefetch" href="/assets/js/13.98de8db7.js"><link rel="prefetch" href="/assets/js/130.e9b7783b.js"><link rel="prefetch" href="/assets/js/131.26cf4f11.js"><link rel="prefetch" href="/assets/js/132.daf43526.js"><link rel="prefetch" href="/assets/js/133.437936aa.js"><link rel="prefetch" href="/assets/js/134.e2a4677b.js"><link rel="prefetch" href="/assets/js/135.804d55a7.js"><link rel="prefetch" href="/assets/js/136.d2506c36.js"><link rel="prefetch" href="/assets/js/137.94453e00.js"><link rel="prefetch" href="/assets/js/138.07b441d5.js"><link rel="prefetch" href="/assets/js/139.3d0e5855.js"><link rel="prefetch" href="/assets/js/14.64412334.js"><link rel="prefetch" href="/assets/js/140.9895c837.js"><link rel="prefetch" href="/assets/js/141.3c1ef21a.js"><link rel="prefetch" href="/assets/js/142.0b117f27.js"><link rel="prefetch" href="/assets/js/143.ca2a8d60.js"><link rel="prefetch" href="/assets/js/144.5ef5495b.js"><link rel="prefetch" href="/assets/js/145.440c565e.js"><link rel="prefetch" href="/assets/js/146.3867c12f.js"><link rel="prefetch" href="/assets/js/147.26ee24d7.js"><link rel="prefetch" href="/assets/js/148.17678f3b.js"><link rel="prefetch" href="/assets/js/149.ddaf32d9.js"><link rel="prefetch" href="/assets/js/15.bb3a36c9.js"><link rel="prefetch" href="/assets/js/150.7f27cb90.js"><link rel="prefetch" href="/assets/js/151.a98181cf.js"><link rel="prefetch" href="/assets/js/152.5fb98c9f.js"><link rel="prefetch" href="/assets/js/153.f889b001.js"><link rel="prefetch" href="/assets/js/154.4680301e.js"><link rel="prefetch" href="/assets/js/155.33d9cd47.js"><link rel="prefetch" href="/assets/js/156.8794ad3a.js"><link rel="prefetch" href="/assets/js/157.3b13cebb.js"><link rel="prefetch" href="/assets/js/158.1b0a7dba.js"><link rel="prefetch" href="/assets/js/159.4229928a.js"><link rel="prefetch" href="/assets/js/16.9e8f5a80.js"><link rel="prefetch" href="/assets/js/160.3c48e4d9.js"><link rel="prefetch" href="/assets/js/161.24d860f1.js"><link rel="prefetch" href="/assets/js/162.15c8d154.js"><link rel="prefetch" href="/assets/js/163.61a2dcaf.js"><link rel="prefetch" href="/assets/js/164.b8a04d1f.js"><link rel="prefetch" href="/assets/js/165.8e98c366.js"><link rel="prefetch" href="/assets/js/166.654150e0.js"><link rel="prefetch" href="/assets/js/167.064a57d9.js"><link rel="prefetch" href="/assets/js/168.91637481.js"><link rel="prefetch" href="/assets/js/169.ce169660.js"><link rel="prefetch" href="/assets/js/17.23a84bb0.js"><link rel="prefetch" href="/assets/js/170.ebfa5bcc.js"><link rel="prefetch" href="/assets/js/171.3424f521.js"><link rel="prefetch" href="/assets/js/172.f7193258.js"><link rel="prefetch" href="/assets/js/173.85715742.js"><link rel="prefetch" href="/assets/js/174.81dca837.js"><link rel="prefetch" href="/assets/js/175.b6079e73.js"><link rel="prefetch" href="/assets/js/176.49825379.js"><link rel="prefetch" href="/assets/js/177.0231c8d6.js"><link rel="prefetch" href="/assets/js/178.c94e8780.js"><link rel="prefetch" href="/assets/js/179.5b303df8.js"><link rel="prefetch" href="/assets/js/18.7943bedb.js"><link rel="prefetch" href="/assets/js/180.310869b5.js"><link rel="prefetch" href="/assets/js/181.e7c8e8a1.js"><link rel="prefetch" href="/assets/js/182.6ad7da62.js"><link rel="prefetch" href="/assets/js/183.4fb2654f.js"><link rel="prefetch" href="/assets/js/184.c7b6ae7c.js"><link rel="prefetch" href="/assets/js/185.089b4cc0.js"><link rel="prefetch" href="/assets/js/186.bee2083a.js"><link rel="prefetch" href="/assets/js/187.51e69ebc.js"><link rel="prefetch" href="/assets/js/188.375d30d3.js"><link rel="prefetch" href="/assets/js/189.a89e9b13.js"><link rel="prefetch" href="/assets/js/19.8fa3ee66.js"><link rel="prefetch" href="/assets/js/190.4c1f8431.js"><link rel="prefetch" href="/assets/js/191.bfe2a439.js"><link rel="prefetch" href="/assets/js/192.bf74e18d.js"><link rel="prefetch" href="/assets/js/193.ef9f9cc8.js"><link rel="prefetch" href="/assets/js/194.dfe890ae.js"><link rel="prefetch" href="/assets/js/195.6c6438a3.js"><link rel="prefetch" href="/assets/js/196.260e560a.js"><link rel="prefetch" href="/assets/js/197.3346b5c4.js"><link rel="prefetch" href="/assets/js/198.e4bb3406.js"><link rel="prefetch" href="/assets/js/199.00dc88bd.js"><link rel="prefetch" href="/assets/js/20.561131f0.js"><link rel="prefetch" href="/assets/js/200.22166210.js"><link rel="prefetch" href="/assets/js/201.83bc8fbc.js"><link rel="prefetch" href="/assets/js/202.9a158a90.js"><link rel="prefetch" href="/assets/js/203.2379a186.js"><link rel="prefetch" href="/assets/js/204.9481e48b.js"><link rel="prefetch" href="/assets/js/205.3fdf2bea.js"><link rel="prefetch" href="/assets/js/206.c41e8209.js"><link rel="prefetch" href="/assets/js/207.6d5f5942.js"><link rel="prefetch" href="/assets/js/208.59a22965.js"><link rel="prefetch" href="/assets/js/209.0e449e7f.js"><link rel="prefetch" href="/assets/js/21.c29951b3.js"><link rel="prefetch" href="/assets/js/210.eedbbaeb.js"><link rel="prefetch" href="/assets/js/211.f44f1d56.js"><link rel="prefetch" href="/assets/js/212.a7909ed2.js"><link rel="prefetch" href="/assets/js/213.ca21b6e7.js"><link rel="prefetch" href="/assets/js/214.3f4e0f1d.js"><link rel="prefetch" href="/assets/js/215.83115df0.js"><link rel="prefetch" href="/assets/js/216.58a30215.js"><link rel="prefetch" href="/assets/js/217.ca0ddbfb.js"><link rel="prefetch" href="/assets/js/218.6fbb7a44.js"><link rel="prefetch" href="/assets/js/219.06f54a6f.js"><link rel="prefetch" href="/assets/js/22.2eb8fe8c.js"><link rel="prefetch" href="/assets/js/220.8258cc2b.js"><link rel="prefetch" href="/assets/js/221.947421f7.js"><link rel="prefetch" href="/assets/js/222.5dbae9db.js"><link rel="prefetch" href="/assets/js/223.a2c4481e.js"><link rel="prefetch" href="/assets/js/224.382ff899.js"><link rel="prefetch" href="/assets/js/225.3493a952.js"><link rel="prefetch" href="/assets/js/226.3037cfb3.js"><link rel="prefetch" href="/assets/js/227.c8003123.js"><link rel="prefetch" href="/assets/js/228.5491d768.js"><link rel="prefetch" href="/assets/js/229.3d23266d.js"><link rel="prefetch" href="/assets/js/23.c36ef39c.js"><link rel="prefetch" href="/assets/js/230.549f5f45.js"><link rel="prefetch" href="/assets/js/231.6380249d.js"><link rel="prefetch" href="/assets/js/232.00e97df3.js"><link rel="prefetch" href="/assets/js/233.959486ac.js"><link rel="prefetch" href="/assets/js/234.a25dd790.js"><link rel="prefetch" href="/assets/js/235.47b69f0e.js"><link rel="prefetch" href="/assets/js/236.1c06c466.js"><link rel="prefetch" href="/assets/js/237.8e32806d.js"><link rel="prefetch" href="/assets/js/238.84112dac.js"><link rel="prefetch" href="/assets/js/239.06f49105.js"><link rel="prefetch" href="/assets/js/24.f648fa1d.js"><link rel="prefetch" href="/assets/js/240.d1332f20.js"><link rel="prefetch" href="/assets/js/241.e5ade0e8.js"><link rel="prefetch" href="/assets/js/242.7b468dbb.js"><link rel="prefetch" href="/assets/js/243.ba704e84.js"><link rel="prefetch" href="/assets/js/244.707715cb.js"><link rel="prefetch" href="/assets/js/245.f244f779.js"><link rel="prefetch" href="/assets/js/246.0f726555.js"><link rel="prefetch" href="/assets/js/247.7879a9b5.js"><link rel="prefetch" href="/assets/js/248.b19a0fec.js"><link rel="prefetch" href="/assets/js/249.c8a10b4b.js"><link rel="prefetch" href="/assets/js/25.8ebff709.js"><link rel="prefetch" href="/assets/js/250.f10693b7.js"><link rel="prefetch" href="/assets/js/251.d6d74d29.js"><link rel="prefetch" href="/assets/js/252.6a9ad164.js"><link rel="prefetch" href="/assets/js/253.aab75683.js"><link rel="prefetch" href="/assets/js/254.defab8f9.js"><link rel="prefetch" href="/assets/js/255.4d3a4319.js"><link rel="prefetch" href="/assets/js/256.c772cdc6.js"><link rel="prefetch" href="/assets/js/257.6abe8f19.js"><link rel="prefetch" href="/assets/js/258.f03e7206.js"><link rel="prefetch" href="/assets/js/259.8d1342de.js"><link rel="prefetch" href="/assets/js/26.7dc1416b.js"><link rel="prefetch" href="/assets/js/260.1b7c3428.js"><link rel="prefetch" href="/assets/js/261.2be00288.js"><link rel="prefetch" href="/assets/js/262.162a14bc.js"><link rel="prefetch" href="/assets/js/263.c421226b.js"><link rel="prefetch" href="/assets/js/264.62bc1951.js"><link rel="prefetch" href="/assets/js/265.5e54bb85.js"><link rel="prefetch" href="/assets/js/266.9b5d7289.js"><link rel="prefetch" href="/assets/js/267.e91c6b3c.js"><link rel="prefetch" href="/assets/js/268.d02d03fb.js"><link rel="prefetch" href="/assets/js/269.2585ecdf.js"><link rel="prefetch" href="/assets/js/27.118e1a4f.js"><link rel="prefetch" href="/assets/js/270.b8e76926.js"><link rel="prefetch" href="/assets/js/271.587353cf.js"><link rel="prefetch" href="/assets/js/272.3cc80391.js"><link rel="prefetch" href="/assets/js/273.acfe384d.js"><link rel="prefetch" href="/assets/js/274.193c7da9.js"><link rel="prefetch" href="/assets/js/275.b23cf3d5.js"><link rel="prefetch" href="/assets/js/276.88796bc4.js"><link rel="prefetch" href="/assets/js/277.a1183e91.js"><link rel="prefetch" href="/assets/js/278.93caa8f7.js"><link rel="prefetch" href="/assets/js/279.effbe1e9.js"><link rel="prefetch" href="/assets/js/28.1c4a3e72.js"><link rel="prefetch" href="/assets/js/280.705edb23.js"><link rel="prefetch" href="/assets/js/281.584072b6.js"><link rel="prefetch" href="/assets/js/282.f0dbc0a2.js"><link rel="prefetch" href="/assets/js/283.40e2c750.js"><link rel="prefetch" href="/assets/js/284.5a3a8ed5.js"><link rel="prefetch" href="/assets/js/285.b36c8a74.js"><link rel="prefetch" href="/assets/js/286.03dd66e9.js"><link rel="prefetch" href="/assets/js/287.e171591a.js"><link rel="prefetch" href="/assets/js/288.d6d802ac.js"><link rel="prefetch" href="/assets/js/289.9eadc9b2.js"><link rel="prefetch" href="/assets/js/29.aa8d972b.js"><link rel="prefetch" href="/assets/js/290.5979bbeb.js"><link rel="prefetch" href="/assets/js/291.cee21a29.js"><link rel="prefetch" href="/assets/js/292.13e06622.js"><link rel="prefetch" href="/assets/js/293.62d8b04a.js"><link rel="prefetch" href="/assets/js/294.a1f9b154.js"><link rel="prefetch" href="/assets/js/295.ef1e62ba.js"><link rel="prefetch" href="/assets/js/296.746efc4a.js"><link rel="prefetch" href="/assets/js/297.44fbcca0.js"><link rel="prefetch" href="/assets/js/298.08685228.js"><link rel="prefetch" href="/assets/js/299.d215d9e1.js"><link rel="prefetch" href="/assets/js/3.7e2d7981.js"><link rel="prefetch" href="/assets/js/30.320b1e69.js"><link rel="prefetch" href="/assets/js/300.2cc717f6.js"><link rel="prefetch" href="/assets/js/301.2bf10fef.js"><link rel="prefetch" href="/assets/js/302.3d2f424e.js"><link rel="prefetch" href="/assets/js/303.e88963db.js"><link rel="prefetch" href="/assets/js/304.56054d55.js"><link rel="prefetch" href="/assets/js/305.74c3b8a0.js"><link rel="prefetch" href="/assets/js/306.3c818dcb.js"><link rel="prefetch" href="/assets/js/307.eb4b8120.js"><link rel="prefetch" href="/assets/js/308.0b9f43bd.js"><link rel="prefetch" href="/assets/js/309.1163f9d3.js"><link rel="prefetch" href="/assets/js/31.26b5e5cb.js"><link rel="prefetch" href="/assets/js/310.8657080a.js"><link rel="prefetch" href="/assets/js/311.1b5f8d86.js"><link rel="prefetch" href="/assets/js/312.6c1285c5.js"><link rel="prefetch" href="/assets/js/313.d9cbcc11.js"><link rel="prefetch" href="/assets/js/314.97952e6e.js"><link rel="prefetch" href="/assets/js/315.922a7d7c.js"><link rel="prefetch" href="/assets/js/316.9faabc00.js"><link rel="prefetch" href="/assets/js/317.a2b5bb3f.js"><link rel="prefetch" href="/assets/js/318.28a2a6b0.js"><link rel="prefetch" href="/assets/js/319.f4f99c44.js"><link rel="prefetch" href="/assets/js/32.e5f71954.js"><link rel="prefetch" href="/assets/js/320.f13eb60f.js"><link rel="prefetch" href="/assets/js/321.ede2766f.js"><link rel="prefetch" href="/assets/js/322.030e2c64.js"><link rel="prefetch" href="/assets/js/323.03493190.js"><link rel="prefetch" href="/assets/js/324.7fe66b2d.js"><link rel="prefetch" href="/assets/js/325.e3ea3bcc.js"><link rel="prefetch" href="/assets/js/326.214ac29e.js"><link rel="prefetch" href="/assets/js/327.88c92e47.js"><link rel="prefetch" href="/assets/js/328.c6dd4f37.js"><link rel="prefetch" href="/assets/js/329.fea1e5b8.js"><link rel="prefetch" href="/assets/js/33.8fa104b1.js"><link rel="prefetch" href="/assets/js/330.0713b5ed.js"><link rel="prefetch" href="/assets/js/331.be5f2800.js"><link rel="prefetch" href="/assets/js/332.459b0aee.js"><link rel="prefetch" href="/assets/js/333.21cdb6eb.js"><link rel="prefetch" href="/assets/js/334.6af83003.js"><link rel="prefetch" href="/assets/js/335.64e94dba.js"><link rel="prefetch" href="/assets/js/336.b58c0a5b.js"><link rel="prefetch" href="/assets/js/337.bfdb10be.js"><link rel="prefetch" href="/assets/js/339.dbba014b.js"><link rel="prefetch" href="/assets/js/34.11219b94.js"><link rel="prefetch" href="/assets/js/340.42e152b0.js"><link rel="prefetch" href="/assets/js/341.236e0ccf.js"><link rel="prefetch" href="/assets/js/342.090dd4fa.js"><link rel="prefetch" href="/assets/js/343.1f2e015e.js"><link rel="prefetch" href="/assets/js/344.c30536c9.js"><link rel="prefetch" href="/assets/js/345.6d6aaaf4.js"><link rel="prefetch" href="/assets/js/346.f32d914c.js"><link rel="prefetch" href="/assets/js/347.1bcd528c.js"><link rel="prefetch" href="/assets/js/348.c040590f.js"><link rel="prefetch" href="/assets/js/349.902a6422.js"><link rel="prefetch" href="/assets/js/35.f5b545c2.js"><link rel="prefetch" href="/assets/js/350.6f841f2e.js"><link rel="prefetch" href="/assets/js/351.dda61183.js"><link rel="prefetch" href="/assets/js/352.279e92c8.js"><link rel="prefetch" href="/assets/js/353.3b2c9106.js"><link rel="prefetch" href="/assets/js/354.2fe833a2.js"><link rel="prefetch" href="/assets/js/355.6d26aa48.js"><link rel="prefetch" href="/assets/js/356.47512ad6.js"><link rel="prefetch" href="/assets/js/357.2d8978bc.js"><link rel="prefetch" href="/assets/js/358.aba452da.js"><link rel="prefetch" href="/assets/js/36.43feb871.js"><link rel="prefetch" href="/assets/js/37.5d47a117.js"><link rel="prefetch" href="/assets/js/38.190b20c9.js"><link rel="prefetch" href="/assets/js/39.90d0b598.js"><link rel="prefetch" href="/assets/js/4.97782dcb.js"><link rel="prefetch" href="/assets/js/40.5663408e.js"><link rel="prefetch" href="/assets/js/41.571bdbf5.js"><link rel="prefetch" href="/assets/js/42.366bba42.js"><link rel="prefetch" href="/assets/js/43.021125dd.js"><link rel="prefetch" href="/assets/js/44.a7ced20f.js"><link rel="prefetch" href="/assets/js/45.2578b0e0.js"><link rel="prefetch" href="/assets/js/46.4f135270.js"><link rel="prefetch" href="/assets/js/47.6c3560b4.js"><link rel="prefetch" href="/assets/js/48.7bcd54c1.js"><link rel="prefetch" href="/assets/js/49.1ecbc345.js"><link rel="prefetch" href="/assets/js/5.69e0bcc5.js"><link rel="prefetch" href="/assets/js/50.8d07759b.js"><link rel="prefetch" href="/assets/js/51.9b9e5d0f.js"><link rel="prefetch" href="/assets/js/52.09188787.js"><link rel="prefetch" href="/assets/js/53.4e9a6826.js"><link rel="prefetch" href="/assets/js/54.fe9f7aa6.js"><link rel="prefetch" href="/assets/js/55.44e00ff4.js"><link rel="prefetch" href="/assets/js/56.f4f43cf5.js"><link rel="prefetch" href="/assets/js/57.9025ea8a.js"><link rel="prefetch" href="/assets/js/58.19e100f6.js"><link rel="prefetch" href="/assets/js/59.00e80273.js"><link rel="prefetch" href="/assets/js/6.ab139cef.js"><link rel="prefetch" href="/assets/js/60.4b5b9e0b.js"><link rel="prefetch" href="/assets/js/61.7e3d9de6.js"><link rel="prefetch" href="/assets/js/62.867f931b.js"><link rel="prefetch" href="/assets/js/63.faaccbef.js"><link rel="prefetch" href="/assets/js/64.e986209e.js"><link rel="prefetch" href="/assets/js/65.eb345721.js"><link rel="prefetch" href="/assets/js/66.8eca4198.js"><link rel="prefetch" href="/assets/js/67.df755a31.js"><link rel="prefetch" href="/assets/js/68.dc7c034f.js"><link rel="prefetch" href="/assets/js/69.60abe3b0.js"><link rel="prefetch" href="/assets/js/7.9a0122d8.js"><link rel="prefetch" href="/assets/js/70.ba30a65d.js"><link rel="prefetch" href="/assets/js/71.c226cf45.js"><link rel="prefetch" href="/assets/js/72.e0846b17.js"><link rel="prefetch" href="/assets/js/73.b1b94442.js"><link rel="prefetch" href="/assets/js/74.b5f7fcf5.js"><link rel="prefetch" href="/assets/js/75.c5f88a5d.js"><link rel="prefetch" href="/assets/js/76.7701da3c.js"><link rel="prefetch" href="/assets/js/77.0b26da51.js"><link rel="prefetch" href="/assets/js/78.6ddad944.js"><link rel="prefetch" href="/assets/js/79.db64264c.js"><link rel="prefetch" href="/assets/js/8.b0d3da92.js"><link rel="prefetch" href="/assets/js/80.433ee290.js"><link rel="prefetch" href="/assets/js/81.2e58bc1c.js"><link rel="prefetch" href="/assets/js/82.2b6f7a7a.js"><link rel="prefetch" href="/assets/js/83.d520c800.js"><link rel="prefetch" href="/assets/js/84.29eef92e.js"><link rel="prefetch" href="/assets/js/85.fda30242.js"><link rel="prefetch" href="/assets/js/86.7fbe9fd7.js"><link rel="prefetch" href="/assets/js/87.69378d71.js"><link rel="prefetch" href="/assets/js/88.3c3dbd5e.js"><link rel="prefetch" href="/assets/js/89.356c6833.js"><link rel="prefetch" href="/assets/js/9.0f14b4d2.js"><link rel="prefetch" href="/assets/js/90.071302d9.js"><link rel="prefetch" href="/assets/js/91.67e2b353.js"><link rel="prefetch" href="/assets/js/92.e9e1e9c1.js"><link rel="prefetch" href="/assets/js/93.8b1f5522.js"><link rel="prefetch" href="/assets/js/94.e7d3f70e.js"><link rel="prefetch" href="/assets/js/95.b2ed940a.js"><link rel="prefetch" href="/assets/js/96.bdb0bb22.js"><link rel="prefetch" href="/assets/js/97.79561140.js"><link rel="prefetch" href="/assets/js/98.fa322090.js"><link rel="prefetch" href="/assets/js/99.fa4c6dbc.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.42699431.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="data:image/jpeg;base64,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" alt="Colderleo's blog" class="logo"> <span class="site-name can-hide">Colderleo's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/linux/" class="nav-link">Linux</a></div><div class="nav-item"><a href="/cpp/" class="nav-link">C++</a></div><div class="nav-item"><a href="/python/" class="nav-link">Python</a></div><div class="nav-item"><a href="/frant/" class="nav-link">前端</a></div><div class="nav-item"><a href="/tools/" class="nav-link">工具软件</a></div><div class="nav-item"><a href="/mysql/" class="nav-link">mysql</a></div><div class="nav-item"><a href="/archives/" class="nav-link">索引</a></div><div class="nav-item"><a href="/about/" class="nav-link">关于</a></div> <a href="https://github.com/colderleo" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><div class="blogger"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCACMAIwDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5r78UUoxnikFABRx2oo+lABg0e9HegdM0AAFO6U0UtIAyelH1NFJ9OgoAdux0qWGQhuTUH86UGk0Bu2/zJUnldxUOisJDsNbc1oUXgZ4rnlobxkmjKU7DiplZevFJNbsMnBqDYyjknAoQM2bBkJ5xW9byxCIdK4Fr8wnANPXW3UYzWsYmLZhj2pR0pPyorUQUUuaT1oAWgd6BTwv60ANH6UvWnYwKQn2pCGnrgU2l7c0dqEMQ0oxSc80ozTA3dFhLEGM8iuss0c4WVeK43QpmS4UA9TXoFvKohDEDpWE1qOLKepwRpGSMDjNcdqV0q7lXGelbHiTU+GRGrj5JN7Ek8miEOo+YRm3EkmmdzzS0vWt0SGDj2pVUseAa1bHT2mPNayaWkYyQKzdRIuMGzlzC2ORTShA5robuJEUgAcVizspJApRnzDlDlRAgqUcCkUUh4rQyEJ+lMNBoBx0oGg7d6T8aWkoQAB1zTsAU0e9HNAGrokeZg3pXRX1/5VvgHkcVg6a3lR5zUOo3BbIBNQ1dgineXDTyEse9QYpOPWj+VWlYAGOcUfnR60UwO3ttsa8AcCmz3Aweaom4AXrVWeZiuRnB4H1rjs5HXdRQzUJtwODWSQcn0q44LDcc9cfSkMBKMwGQuCa6YQ5Ucs58zKm7HFJu96laI8kA8e1RbM5IHYfzqhISk70ZPoaQ/pQgHcYzSY4pKUfjj6dKYC8Y5pVGR05/nWjpWmPfTKikFHI5AJ25/wA9K9M8J/CG8uZxJfsPspHVOp/z+YNC1JckjyyGRhHwDz/+qoZQzt3yTivoTUvgwkK28liHl/eASA/3T3+lUR8Er6K3mkPJRA6DHUgEY/rRysn2iPAyCCcil2EBs/wj8q9W1X4YXlhd3ZnhcW9vtO7HBGAc/TrWA3hW5WG7laM/MiuOD3/yeKLD50cMP1FLirktlIsZbadueTjqcn/Cq/kSH7oOKCk7mrBDLODsyVz1HOPfA7Vu+H/DV7qN3LZNEyzFN6ZHD+hB6Ec4/wAmut8E+EwkSSXuDgjay/Kcf/q7ZPavb/DdtZCCDZFEzRjCkYJXP64Pp61MUkFScmjwuz+HN+6qkkLfvAQjlTjIHRvyP5gda09E+G9w6SLLAfMiIVkI+8jc5B+gYD1J9s19IGOD7OGZVDN0IH6/Wo7CFGckIoGMccfnWmhhdnzdqvwpvbUymOJ3VwqKMf3V5/Hg/jVGb4V6hCdjQtxEgyAeSWOT068D8DX1qLdGUkgHPQe/rT/sSOPnjUjoDjrSsgU2j4a8TeDbvR42d422r8pyP4hyce3P5VyZgdVBZSMjjjrX3Z4u8I2mo2uGhUqQVPHrxmvAvF/wwmjkmns13IoCRJjnJ7nj0z/k0mrFwnc8LxzjvWlpWmS3kqpEMvkAD/PGa177wtcWM5EowQcdP5e/+NdR4Q0GO3zcnqexP+c1DkkbJNnS+BvDlrYqk93br9oBGOMc/QcZr17SLzbGAoxGPl6d/fHavNrK6C/Iudw65710djeOuNjKue65H58YqY1BSgemabqcbtsZdpHX/Gt2K8ibMagOOnHOK8rsbwlwSznjorZ/EV1WlXgUqwJGDtB+vt/nFWqhjKB1UthbXkbLPEjh1w2RnI/rWDqXgfT7q3kSKIIXHpgD/PatqyulZd2eMAHH+frWqjhk4xgCrTTMrWPnjxj8JykWy0jCwIMkKOW7dexP8uO5rxXXfDE9rqMkLsYtmAEQE4Hvx+P4ivuuZUlTa6gj0NZMvhuxmkaRraPc3JOBz+lFilNo+d9KvtjcsxPHQen64rs9BvHuJflfhcfxDjn25/CuCsCDJHHGpOeoVQMc9R6n88V0NqzaeySZBJPLcNt9sev+PtXLGTOyaR6Fqd/IbmC3iIJTDSfN3z1+v4f41v6U28Abhuzhh6dvxrzLQNR+2apKzAybmADAnt1GK9E0aSMo2GKtnpzx7ev+FWpX1OdxtodbbbSmQRyasqvBHvWbathdwbI/LvitaH51zgVoncysVrxT5DAAcYrltXsY5IGAUdP8mutvVPkNjqBXP6kwELbs4IpgtD558e2scMzbh06YFYljMFtgowB3ro/iY4WSRlIzk/jXD6PJJPgKwyTjJJFcdTc9Kn8J1ml2b3U6yOZBGoz8gyx/+tXW20U9xGBPJsh7b1BOB7jkGsjS4zYwKDsY4yDyMfjwQa0lviBl1TDDAzg575/+vVQskZyuzctLZk2us6v6ZHTHv2Na1nIMmQqx+YZ4wePQdzXMabcJdHy45BtzzlR9fr+lbdlGFmKxOkpHIPUDHrngce9aIxaOnsr0FjuZlPQ5H+QfrW7Fd+XAWdgAB+dcxYRnIRsBmbnKHH4Z/GrDXDC4jtWUbc72bOOAfTtzRzWIcTrLItKA7ZAY8D296vBQR1NZ9jKuBtzn+laaDK1rBmVj5B0iR3kLM5LsAFHr7/57e9dM0hXT/KfByuM+nv8A0rkNLbEgOTuJ6/X6966bOYflIwVx09O9cieh3z3JPAJkW6ucyFYw4zzzwOnHPpXquiyqzHGBngDntx9K8e8J3X2e6u4VVC0hUksO3PT/AD3r0/wrcGZiZQEc4HB/XHaqg9LGVTudszPHGGU8ZAPuD3/rW7ZSZiAPXFYUZ8yEk8kj86tafcjykKnp/KtYOzOdmtc4aNgRwR1rh/Ed4bW0l3HleK6ye4Gw88GvOviFdGGwnZehXt6/Srk+ooK7PFfHl79pkkIIPbHWsfwvtWPLY9v896g1+7MjSB+nX05zWZo2oLHKULYGe/euN3ep6UdFY9JhvAo3AIcccjP41QutQkuJxFCFMjcE4AAHr71lm7DR4DBc8Ve0hEUhjyzd9ue/r6/ypXYrJanYaBbRCFIrgsWI+Z0f39PTNdTp8bWyxISrBfuq4+8M9c1zWnTq9wsVraJtAHmM3zH8TnHauo09YpopnbZbW6ruZhxhR3z0A61qvI55G1JOLZZLogtGoACL8pLE8AD14z14HPriro8c015NeXMjZkwFQdFA6Ej19ef655x9WN/MVgB+yxHbD8/Lgn7xGM4wBjPTr1zXVaO5MOzgAgKNvbHf3PSjclqyOx01hwD0zmtdeBxmsax+THJxWsj/AC8k1vEwZ8fWTDcrRgAL8oz3z3/z0/CtwSKtsVBJIUEnp71yNpd4AZmA5GB7Grb6qFD5YgPjHtz/AIVzWO56l/RpidXnCkcqD9Of8K9R8PzBVUqRlOvbr2/n+leReGrkYubkYzu6+wP/AOqvQfDt2zWm5yASucj1Oef/AK9EdCamp6xZXeYFwpx79v8AJqLTroFCDgHP5deKxrW9C2gIfO0fiQawbbxFCDIUkA3MfwxWvU51G53k15+7PzVwXjm9Elm656jFLeeJIgmRIMkc155408SqBtDAqwPfv/k05O6KhDU8/wDEs6pcPg8GuVku2SXdHgGpdavzc3Dc8dayXbJpQhodLlY63SNUaRkV2BbIB716NoBSWVN25uMYHf2GRXi2mymKYMDwvP1r0vwzq7IqFSM8Zb074FZyhZjveJ6paQB49pQRggb/AJsEjpjj8c/XFU/Hup7LG30+0TbDKQsoByWB45P5/h6VmNrEMNq0gYb8AnGTznH4n1/Cs7xLcrJaxTMWLyShn555zgf57UnonYxirvU6TRplaJQA24gAY4x7D8uveu80KTyghU/dHGfXvXmGh3qERFcjHce2eAP613Wl3Bco7Hr1H+frTgKaPQ7G4WRVAYbiM/j6fyrXSYbfvCuR06UIi4bOGx/P/wCtW7FIBGMEfnW8Wc7R8sy/DPWEmZINQtZVLYVnDLn9DVPU/ht4mfIjnsnIJAVHIJx6ZGPbHavb7a5dI9qqmFzjIqfT7h8Kp2kDK8jtV+zRr7SR4hp3gPxXZQ+X9mhaMEY2TryT3Of8+ldXpOma7bxFW099xXaF3qO/16cDFenQMbjTpBJg844+tLE5ETRADbjrjnil7NXF7R9Tgpj4jELxw6ZKTsxy6jOPqf0riLrQPGCyDy9Mlcngssq+gGevPSvdhO8kaqxGChbPfNP4NoGxhgAeO9J0yo1HHY8Efw94u8gAabKzEE4Dqe/1rCvvBfjK/lKSaU6jsWdRwfxr6Viw9sGKjdkcjNPXH7s7RnzMfhS5UHtGj5RHww8WSSFRpbnjOdwwecce9Sj4U+LCFxp3zZ243AYPvmvrAtsZdqqMe3Wqm8u8mQo8s8YHXnvV2EptnzBJ8J/FsKblsFZcZ4lB46fzqW2+Hvje1OI9KlGBnHmKMjnnk8dPrX07E5JCkDGfSnbz54XjGMUuW+4KbR84W/hnxirMr6TckxquV446/n+vFW73QfFM2nIU0e6xsUnpzjI6HnP+Ne9LM/mSDPQ4FWdxMAJ5NT7ND9o0fO2i2fiXT5ES90i9SNMMW8skAHjt7816Vod5c/ZlVrSeNwxADoRnHHH9Pxr0BZnHlKCMMBmp7dy0jE9ueKXs0JzbKWizlzuKsPMwfmBHP41tm+ihAQozkDkis57iTru5POafHcyAEZHX0qlGxD1P/9k="> <div class="blogger-info"><h3>Colder Leo</h3> <span>热爱代码的打工人</span></div></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><a href="/linux/" class="nav-link">Linux</a></div><div class="nav-item"><a href="/cpp/" class="nav-link">C++</a></div><div class="nav-item"><a href="/python/" class="nav-link">Python</a></div><div class="nav-item"><a href="/frant/" class="nav-link">前端</a></div><div class="nav-item"><a href="/tools/" class="nav-link">工具软件</a></div><div class="nav-item"><a href="/mysql/" class="nav-link">mysql</a></div><div class="nav-item"><a href="/archives/" class="nav-link">索引</a></div><div class="nav-item"><a href="/about/" class="nav-link">关于</a></div> <a href="https://github.com/colderleo" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>待学习</span> <!----></p> <!----></section></li></ul> <div class="sidebar-slot sidebar-slot-bottom"><!-- 正方形 -->
+      <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-7828333725993554"
+          data-ad-slot="3508773082"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script></div></aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-1baff76c><div class="articleInfo" data-v-1baff76c><!----> <div class="info" data-v-1baff76c><div title="作者" class="author iconfont icon-touxiang" data-v-1baff76c><a href="https://gitee.com/colderleo" target="_blank" title="作者" class="beLink" data-v-1baff76c>gaoliu</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-1baff76c><a href="javascript:;" data-v-1baff76c>2021-10-06</a></div> <div title="分类" class="date iconfont icon-wenjian" data-v-1baff76c><a href="/categories/?category=null" data-v-1baff76c>null </a></div></div></div></div> <!----> <div class="content-wrapper"><!----> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABH1JREFUSA3tVl1oHFUUPmdmd2ltklqbpJDiNnXFmgbFktho7YMPNiJSSZM0+CAYSkUELVhM6YuwIPpgoOKDqOBDC0XE2CQoNtQXBUFTTcCi+Wlh1V2TQExsUzcltd3M9Tt3ZjZzZ2fT+OJTL8yeM+eee757fmeJbq//KQL8X3DUSFOcfr7cRsRtxNQMWueeVzOkaITIGqQHNg5y8+jNW9ldM7A6nTpAjuolUikAwq7CE3WcM2RRDz+XGVgN3FptU/aUSlvq9Pa3iZ1+sgAqJyyAFqkipd9dqiwHF3P65YycLWc/6sqGrvoEoIp6DOFaX5h6+dnfjkWprwqsPk0dUGq5vySwDImC10KxFHgGL1SWoc92O3eVht09qdXNH11I2SsTsJYqMWzihqGMi+A+Garf3BAuuLI5oGlULyNfyB/HYNujwktOfRrMr5t77NmevqaUopx0grnKAyvVpmwUDB4x6FPXuGvYLTDwWsejwgtgkYKPqRJg8SV6xaiZ3ZTppGneS4yfH5/66fZSDHv+QZci/+h5c5UHtpy67JUqGppM0sh0Nc1dW6/N1W5Yoqat8/TU/VnadmdeW2PLLSyh0cvxBs3KbqTmwYPpxN4do/mzE8nEpvX/UMu2Wbp74zUAK5q6WkHns7V0eWkdPbPzd3rxkTGybadYySumVzhcaJFbs5UrEkQ/+CK8gF5dnh/6ciIZ73gwQ927L1IitoxKLXYP3SjYdOrHHfTZhRRlFyrorafPk20B3HPD1y2G3qKZME5Jcf3t/HUC13/8tSd++vqFveMUTwAUxSUFI1QekR1+bIze3D9MF2aq6cPvG72CgnldWCFqyRw3lwH8ZMerjTD9ElRO7Gv44wNpC90aASqGfVlz/Rx17srQ57/UU26hkhQqUB7dBR71WmzQhHUnblGmVOEw0jhbV1n9OlXUDCIRGaNV5Jp43N516fN7JmnTHdfp7Hgy0luO4aMhtkLL8Bi3bUWYvzh5Mn1dTxrL6QmGuRhGL/TiTTxRoEdTszSaq9GR0NGA3KdkOz3hqSV3MIDhQ5IVX/Ivx3umBti2es2h4eZby7x8br1rkf7Mo90AqC8aQ3sJeNzqFRu+vSANAQe3PL7l0HGOAdwDCeZYvNKeoZp1Qfs6Aipndh86HmFRi0LAnEO47wsqM6cdfjh3jBPUzhZy7nvlUfFsamED1VQt6aISHVymXZ/B2aCtIG8AI8xfobj2d3en1wWVhOeHELKmLQ1s211s88comkv4UCwWyF787mJdYXtNfhKAXVqnKTq8QZvGAGGOfaTo5pGZ/PwbUCr5+DPr/1J92JNHr9aOl/F3iI5+O1nfybsGxoimvZ3ViWSluDITw3P37mypheDIPY0tw7+O/5ApbkYw+zpfaUVu32Pi98+defdUhEpZkRFq0aqyNh9FuL9hpYbEm6iwi0z2REd09ZmyENEbuhjDWzKvZXTqKYaBIr3tt5kuPtQBZFvEUwHt60vfCNu41XsksH9Ij1BMMz1Y0OOunHNShFIP5868g5zeXmuLwL9T4b6Q2+KejgAAAABJRU5ErkJggg==">待学习<!----></h1> <div class="page-slot page-slot-top"><!-- 固定100% * 90px可显示，max-height:90px未见显示-->
+     <ins class="adsbygoogle"
+          style="display:inline-block;width:100%;max-height:90px"
+          data-ad-client="ca-pub-7828333725993554"
+          data-ad-slot="6625304284"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script></div> <div class="theme-vdoing-content content__default"><div class="language- line-numbers-mode"><pre class="language-text"><code>
+
+题目
+壳子，
+第k大的数
+砝码
+
+基础知识
+C++，https://thispointer.com/c11-tutorial/
+http://www.cplusplus.com/reference/
+cast_pointer
+boost::format
+可变参数模板...
+pthread_mutex_lock
+atomic
+std::chrono::system_clock::now()
+
+
+https://leetcode-cn.com/problems/print-foobar-alternately/solution/c-jiao-ti-da-yin-foobar-ti-jie-zheng-li-by-mu-lang/ 交替打印
+
+https://github.com/taurusai/kungfu
+
+https://www.sohu.com/a/308597063_505915 量化工程师所需的技能
+
+
+python super：查找顺序（MRO）、重复调用（钻石继承）
+菜鸟shell，https://mp.weixin.qq.com/s/CZF5yRbF2pqw2AePoHmDvg
+epoll应用
+
+https://www.runoob.com/linux/linux-shell.html
+
+
+re.find
+fast-api
+windowtab2
+L2Dwidget
+
+早盘集合竞价的交易规则
+
+
+
+
+C++
+C++11 新特性讲一下
+atomic
+指针和引用
+网络通信，写客户端和服务端，线程池
+高性能开发
+开窗函数
+
+https://leetcode-cn.com/explore/
+
+贪心算
+
+set，红黑树。
+linux main函数调用过程，以及main函数为什么必须是int
+设计模式，滑动窗口。可以连续发送多个数据包吗？
+c++ main返回值为什么是int
+
+
+C++并发指南，博主写了一个系列的文章，看一下
+https://www.cnblogs.com/huty/p/8516997.html
+
+LINUX ：命令的执行过程
+https://blog.csdn.net/michael_zheng_tech/article/details/79860077
+
+用户态和内核态的切换
+https://www.cnblogs.com/maxigang/p/9041080.html
+
+
+还有两种方式，利用std::function、less函数模板定制
+参考2：https://blog.csdn.net/y109y/article/details/82901710
+
+二维数组和双重指针
+https://blog.csdn.net/u013684730/article/details/46565577
+
+
+
+ai算法工程师手册
+http://www.huaxiaozhuan.com/
+
+
+
+编程题，多少块陆地。
+https://blog.csdn.net/hi_baymax/article/details/82585480
+跟这道题差不多，不是01了，改成0-10000，问有多少个区域。
+思路：还是跟上面差不多，新建一个同样大小的double类型的矩阵，（或者试试同样大小的整形矩阵？）
+
+
+
+scala
+VMware
+
+
+
+好书推荐：
+Effective C++， More Effective C++
+
+STL
+
+
+
+https://github.com/zoujingli/ThinkAdmin
+
+deepnude
+
+
+http://kyonhuang.top/Andrew-Ng-Deep-Learning-notes/#/
+
+https://github.com/CyC2018/Job-Recommend
+
+scala中函数组合器的用法(map,filter,zip,foreach,groupBy,flatten,drop等)
+https://blog.csdn.net/springlustre/article/details/52882205
+
+运行在YARN上的Spark程序的Executor，Cores和Memory的分配
+https://www.jianshu.com/p/3716ade93b02
+
+命令行的艺术
+https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md
+
+
+https://blog.csdn.net/youyou1543724847/article/details/82944577
+zookeeper
+
+
+
+什么是cross-entropy
+
+Cloudera Manager
+CHD
+
+
+计算机面试书籍与求职网站推荐
+发表于2015/5/27 17:25:12  1317人阅读
+分类： Interview
+
+一、推荐书籍
+计算机的好书挺多的，我买了也有四五十本，也花了不少钱，但是这些投资都是值的，好好看一下这些书，让自己找工作时的薪水涨个几千是没问题的。当然，也有些书是电子版的。我是c++方向的，可能大部分书都是和c++相关的。
+1. c、c++相关
+C语言问题一般都是在笔试题中出现，面试题中问的比较少。首先是下面这三本经典的C语言书：
+《C和指针》
+《C专家编程》
+《C缺陷与陷阱》
+这里还要极力推荐的是：
+《C语言深度剖析》
+这本书是国内人写的，重点讲解了C语言里的一些晦涩的问题。
+上面这几本书应该基本上就可以熟练掌握C语言的各种问题了，笔试题基本都能从容应对。
+下面首先推荐三本C++相关的书：
+《深度探索C++对象模型》
+《Effective C++》
+《STL源码剖析》
+我觉得这三本是C++方向找工作必备的，这几本看熟了（我觉得至少认真看个3、5遍吧）至少可以搞定90%的C++笔试面试题。
+下面这两本我也极力推荐：
+《More Effective C++》
+《C++反汇编与逆向分析技术》
+如果这两本书也掌握了我觉得面试中一般没有什么C++问题能难倒你了。
+当然还有很多其他经典的C++的书，有精力都可以好好去读一下，我就不一一列举了。
+小结：C、C++知识是很重要的，是绝大数公司笔试面试中重点考察的知识，除了Google、微软等一些公司面试中基本不考察编程语言外，其他大多数公司都会把C++作为重点考察的内容之一，我面过的公司：百度、阿里巴巴、腾讯、网易游戏、雅虎等等都会问C++问题，当然具体问不问也可能跟你的简历、面试官的喜好有关。
+2. 算法、数据结构相关
+谈到算法自然少不了圣经了
+《算法导论》
+当然这本书我只是偶尔翻翻，但是我觉得这个应该从头到尾认真看一遍、好好做一下练习题。
+下面是几本跟面试中的算法最相关的一些书籍：
+《编程珠玑》
+《编程之美》
+这两本是最经典的了，这里面注重的是解决问题的思路，看的时候里面的问题要认真思考再参考解答。
+下面两本是对具体的面试题做一些解答，同时有详细代码实现的。
+《剑指Offer》
+《Cracking the coding interview》
+上面这四本我觉得都是必备的，里面的题目解决思路要数量掌握，能够举一反三、解决相关变种问题。同时，里面的题目，应该都要在纸上实现，然后再在电脑里实现、测试。Bug-free是面试中重点考察，面试官也会经常让面试者写测试用例，所以，平时我们要养成这些好的习惯。
+下面也推荐一本经典书吧，
+《算法艺术与信息学竞赛》
+当然不适合算法薄弱的人看，这一般是ACM大牛的家常饭。不过，能看多少是多少，总归是会有收获的。
+小结：算法是重中之重了，各个公司都把算法作为考察重点，甚至有的公司只考察算法。应该早点开始积累，比如多刷一下POJ，LeetCode等等，后面也会提到这些在线编程网站。
+3. 数学相关
+这方面我看的也不多，当然，我觉得这几本都很重要，对笔试面试都会很有好处的，而且这方面的内容笔试面试中考察的也很多。
+《组合数学》
+《具体数学》
+《数学之美》
+4. 操作系统相关
+操作系统也是笔试面试考察的重点，我看的相关书的也不多，主要推荐下面两本吧
+《深入理解计算机系统》
+《操作系统精髓与设计原理》
+我没有linux相关经验，但是我觉得linux内核应该好好研究一下，这方面我不懂，就不多说了。
+我稍微研究过一点点windows内核源码，这里推荐
+《Windows内核原理与实现》
+还有和windows编程相关的
+《Windows核心编程》
+5. 软件开发、设计相关
+首先是设计模式，我觉得设计模式是很重要的，对以后工作也很有好处。当然面试中考察的不是特别深，一般就是问一下你熟悉的模式是哪一个，然后稍微问一下，估计Singleton是问的最多的。我还是极力推荐大家熟练掌握设计模式。下面这两本书配合一起看，效果相当好
+《Head First设计模式》
+《设计模式—可复用面向对象软件的基础》
+然后是
+《代码大全》
+这个就不多说了，也是必备的。
+我再极力推荐两本重构相关的书
+《重构—改善既有代码的设计》
+《重构与模式》
+这两本可能对面试没有直接的帮助，但是应该会有潜移默化的影响吧，对以后工作肯定是相当有好处的。
+6. 搜索引擎
+这个不是必备的了，但是我为了丰富一下简历，也看了几本书，主要两本吧
+《搜索引擎—信息检索实践》
+《这就是搜索引擎—核心技术讲解》
+这两本配合着看，就可以把搜索引擎原理、相关技术了解得差不多了，我简历上写了这个，面试中也经常被问到，应该是可以加分的。
+7. 数据库
+数据库也是重要的内容之一，尤其是数据库底层实现相关的一些东西，索引啊等等。
+首先是大家最熟悉的
+《数据库系统概念》
+还有一本很好的，就是讲解数据库底层内容的
+《数据库系统实现》
+8. 其他
+这里主要是推荐一本《垃圾收集》，这个算是比较底层的东西了，但是这个绝对的会给面试加分，我也很受益于这一点，同时可以稍微研究一下JVM的垃圾收集机制，可以参考《深入理解Java虚拟机》以及一些相关文章。
+还有《CDN技术详解》，我觉得也不错，可以很好的了解一些大型网站使用的一些技术等等，面试中也常常会问到一些大型的网站系统设计问题，负载均衡等等。
+二、推荐网站
+1.LeetCode
+http://leetcode.com/
+这个网站里有很多经典面试题的讲解，当然最主要的是它的OJ系统，里面有100多道题目，和ACM OJ不同的是，这里面的题目都是来自于面试题，所有更有针对性，建议至少刷3遍，我刷了差不多5,6遍，多刷几遍不丢人。
+2.POJ
+http://poj.org/
+这是北大的OJ，leetcode满足不了你，就可以来这刷了，如果还满足不了就找国外的OJ吧，USACO、URAL等。
+3. NOCOW
+http://www.nocow.cn/
+这里也有不少acm相关的资料，推荐看一下USACO和URAL的题解。
+4. Careercup
+http://www.careercup.com/
+国外著名的帮助找工作的网站，里面有很多Google，MS，FB，Amazon等等名企的面试题，有精力就一道一道做吧。
+5.CSDN
+http://www.csdn.net/
+有不少人的博客还是不错的，总结很多笔试面试相关的东西，比如v_JULY_v。也常关注一下热门博客。
+三、其他
+在这里推荐一下陈利人的微博（http://weibo.com/lirenchen），该微博里有很多不错的资料。建议认真读一读google云计算的三篇论文，毕竟云计算仍然是热点。好好研究几个开源项目的源码，如levelDB。做几个有水平的项目。找个好公司实习一下，著名互联网公司的实习经历也挺重要的。
+
+总结
+以上基本上是我为找工作准备的东西，当然我也没把我所列的每一个方面都做的那么充分，但是只要准备个差不多，我觉得国内的公司BAT之类的还是不在话下的，希望来年准备找工作的同学早点准备，到时候拿到理想的offer。
+
+
+面试书籍
+发表于2017/8/17 23:51:47  228人阅读
+分类： 面试试题
+
+算法：
+《编程之美》
+《算法导论》
+《编程珠玑》
+《面试指南》
+《数据结构》
+C：
+《C陷阱与缺陷》
+《C专家编程》
+《C语言程序设计》
+《C和指针》
+C++：
+《Effective C++》
+《Exceptional C++》
+《C++ Common Knowedge》
+《C++程序设计》
+《深度探索C++对象模型》
+
+《深入理解计算机系统》
+《Windows程序设计》
+
+操作系统设计与实现
+深入理解计算机系统
+Abraham Silberschatz的两本书：
+1． 实用操作系统概念（影印版） 
+2． 操作系统概念（第六版 影印版） 
+3. 现代操作系统(英文版•第2版) 
+概念和理论：《现代操作系统》、《操作系统概念》
+基于Linux：《深入理解Linux内核》
+基于Windows：《深入解析Windows操作系统》
+
+视频：推荐北京大学操作系统原理公开课（2015年）（free，需注册账号）
+Coursera - Free Online Courses From Top Universities
+书籍：赵迥的《linux内核完全剖析》
+这两个讲得都是很实际的操作系统知识，不会给你一种空中楼阁的感觉。
+
+
+1.于渊的《自己动手写操作系统》，这本书从零开始实现一个小的操作系统内核，看完之后可以对操作系统最基本的原理有比较好的理解。
+2.网易云课堂李治军老师的操作系统课程，讲的通俗易懂，用的是linux0.11的源码，真的很好。
+3.Linux内核完全剖析（linux0.12）,很全面。
+
+
+
+先看视频课程吧，再看书。
+看书的话，很多知识点对于新手比较晦涩，如果看视频，有老师讲解，至少比看书容易点
+我倒是收集了一些操作系统视频课程
+操作系统原理 ：http://www.icourses.cn/coursestatic/course_3743.html
+操作系统 - 浙江大学：http://www.icourses.cn/coursestatic/course_6801.html 课堂录像
+浙江大学操作系统共38讲视频由李善平主讲更新完毕：http://www.openke.net/show-1061.html
+操作系统-慕课(MOOC)：http://www.xuetangx.com/courses/TsinghuaX/30240243X/2015_T1/about
+
+
+
+
+基础知识：
+算法和数据结构
+数组、链表、二叉树、队列、栈的各种操作（性能，场景）
+二分查找和各种变种的二分查找
+各类排序算法以及复杂度分析（快排、归并、堆）
+各类算法题（手写）
+理解并可以分析时间和空间复杂度。
+动态规划（笔试回回有。。）、贪心。
+红黑树、AVL树、Hash树、Tire树、B树、B+树。
+图算法（比较少，也就两个最短路径算法理解吧）
+计算机网络
+OSI7层模型（TCP4层）
+每层的协议
+url到页面的过程
+HTTP
+http/https 1.0、1.1、2.0
+get/post 以及幂等性
+http 协议头相关
+网络攻击（CSRF、XSS）
+TCP/IP
+三次握手、四次挥手
+拥塞控制（过程、阈值）
+流量控制与滑动窗口
+TCP与UDP比较
+子网划分（一般只有笔试有）
+DDos攻击
+(B)IO/NIO/AIO
+三者原理，各个语言是怎么实现的
+Netty
+Linux内核select poll epoll
+数据库（最多的还是mysql，Nosql有redis）
+索引（包括分类及优化方式，失效条件，底层结构）
+sql语法（join，union，子查询，having，group by）
+引擎对比（InnoDB，MyISAM）
+数据库的锁（行锁，表锁，页级锁，意向锁，读锁，写锁，悲观锁，乐观锁，以及加锁的select sql方式）
+隔离级别，依次解决的问题（脏读、不可重复读、幻读）
+事务的ACID
+B树、B+树
+优化（explain，慢查询，show profile）
+数据库的范式。
+分库分表，主从复制，读写分离。
+Nosql相关（redis和memcached区别之类的，如果你熟悉redis，redis还有一堆要问的）
+操作系统：
+进程通信IPC（几种方式），与线程区别
+OS的几种策略（页面置换，进程调度等，每个里面有几种算法）
+互斥与死锁相关的
+linux常用命令（问的时候都会给具体某一个场景）
+Linux内核相关（select、poll、epoll）
+编程语言（这里只说Java）：
+把我之后的面经过一遍，Java感觉覆盖的就差不多了，不过下面还是分个类。
+Java基础（面向对象、四个特性、重载重写、static和final等等很多东西）
+集合（HashMap、ConcurrentHashMap、各种List，最好结合源码看）
+并发和多线程（线程池、SYNC和Lock锁机制、线程通信、volatile、ThreadLocal、CyclicBarrier、Atom包、CountDownLatch、AQS、CAS原理等等）
+JVM（内存模型、GC垃圾回收，包括分代，GC算法，收集器、类加载和双亲委派、JVM调优，内存泄漏和内存溢出）
+IO/NIO相关
+反射和代理、异常、Java8相关、序列化
+设计模式（常用的，jdk中有的）
+Web相关（servlet、cookie/session、Spring&lt;AOP、IOC、MVC、事务、动态代理&gt;、Mybatis、Tomcat、Hibernate等）
+看jdk源码
+项目经历
+这个每个人的项目不同，覆盖的技术也不一样，所以不能统一去说。
+这里的技巧呢，在下面也会详细说明。
+无非是找到自己项目中的亮点，简历上叙述的简练并且吸引眼球，同时自己要很熟悉这个点（毕竟可以提前准备）
+最好自己多练，就像有个剧本或者稿子一样，保证面试中可以很熟练通俗地讲出，并且让人听着很舒服。
+实习经历
+这个很抱歉，因为我是找实习的经历，所以也没有实习经历的讲述经验。
+但我想如果你有实习经历，那面试过程的重点也会在实习做了什么上面，所以大家最好对实习所做的工作做一个总结，并且同样抓出亮点，搞懂内部原理，提前锻炼讲述的过程。
+其他扩展技能（这个方方面面太多了，全部掌握基本上不可能，只是作为大家其他时间扩充技能的参考）
+分布式架构：（了解原理就行，如果真的有实践经验更好）
+CAP原理和BASE理论。
+Nosql与KV存储（redis，hbase，mongodb，memcached等）
+服务化理论（包括服务发现、治理等，zookeeper、etcd、springcloud微服务、）
+负载均衡（原理、cdn、一致性hash）
+RPC框架（包括整体的一些框架理论，通信的netty，序列化协议thrift，protobuff等）
+消息队列（原理、kafka，activeMQ，rocketMQ）
+分布式存储系统（GFS、HDFS、fastDFS）、存储模型（skipList、LSM等）
+分布式事务、分布式锁等
+脚本语言：（只是作为横向扩充，一般问到linux也会问问shell脚本）
+python
+php
+shell
+golang
+...
+大数据与数据分析：
+hadoop生态圈(hive、hbase、hdfs、zookeeper、storm、kafka)
+spark体系
+语言：python、R、scala
+搜索引擎与技术
+机器学习算法：
+模型和算法很多。不细说了，如果很熟练就去投算法，国内很多公司都算法岗都很稀缺，其他岗可以大概了解下理论。
+其他工具的理论和使用：
+这个更多了，问的多的比如git、docker、maven/gradle、Jenkins等等，自己需要的话选择性地去学。
+实力要怎么积累
+    积累实力最好的方式就是平时在项目中或是学习中，多学多问，多思考多钻研。这里就说说短期内学习的一些方法和路径：
+    总结下来，一方面是通过看书、看视频、看面经来不断扩展自己的知识面，一方面是通过不断的面试积累经验和知识盲区，在每次总结的过程中积累实力。
+
+
+
+
+
+
+
+
+想转行做大数据技术相关的工作，需要学习语言还是学什么？
+数据挖掘 数据分析  Hadoop   大数据
+想转行做大数据技术相关的工作，需要学习语言还是学什么？
+
+29 个回答
+
+Fickr Sung孫啟誠
+
+区块链/大数据/行为经济学/社会心理学
+
+本人曾是一名大数据工程师，项目数据50T，日均数据增长20G左右。
+
+个人是从Java后端开发，经过3个月的业余自学成功转型大数据工程师。
+
+背景介绍完毕，开始正式一本正经回答问题:
+
+本回答目录:
+
+一.大数据方向工作介绍
+
+二.大数据工程师的技能要求
+
+三.大数据学习路径
+
+四.学习资源推荐（书籍、博客、网站）
+
+一.大数据方向工作介绍
+
+大数据方向的工作目前分为三个主要方向:
+
+01.大数据工程师
+
+02.数据分析师
+
+03.大数据科学家
+
+04.其他（数据挖掘本质算是机器学习，不过和数据相关，也可以理解为大数据的一个方向吧）
+
+二.大数据工程师的技能要求
+
+附上二份比较权威的大数据工程师技能图（图侵删）
+
+
+总结如下:
+
+必须技能10条:
+
+01.Java高级(虚拟机、并发)
+
+02.Linux 基本操作
+
+03.Hadoop（此处为侠义概念单指HDFS+MapReduce+Yarn ）
+
+04.HBase（JavaAPI操作+Phoenix ）
+
+05.Hive(Hql基本操作和原理理解）
+
+06.Kafka
+
+07.Storm
+
+08.Scala需要
+
+09.Python
+
+10.Spark (Core+sparksql+Spark streaming ）
+
+11.一些小工具(Sqoop等)
+
+高阶技能6条:
+
+11.机器学习算法以及mahout库加MLlib
+
+12.R语言
+
+13.Lambda 架构
+
+14.Kappa架构
+
+15.Kylin
+
+16.Aluxio
+
+三.学习路径
+
+由于本人是从Java开发通过大概3个月的自学转到大数据开发的。所以我主要分享一下自己的学习路劲。
+
+第一阶段:
+
+01.Linux学习（跟鸟哥学就ok了）
+
+02.Java 高级学习（《深入理解Java虚拟机》、《Java高并发实战》）
+
+第二阶段:
+
+03.Hadoop （董西成的书）
+
+04.HBase（《HBase权威指南》）
+
+05.Hive（《Hive开发指南》）
+
+06.Scala（《快学Scala》）
+
+07.Spark （《Spark 快速大数据分析》）
+
+08.Python （跟着廖雪峰的博客学习就ok了）
+
+第三阶段:
+
+对应技能需求，到网上多搜集一些资料就ok了，我把最重要的事情(要学什么告诉你了)，
+
+剩下的就是你去搜集对应的资料学习就ok了
+
+当然如果你觉得自己看书效率太慢，你可以网上搜集一些课程，跟着课程走也OK 。这个完全根据自己情况决定。如果看书效率不高就很网课，相反的话就自己看书。
+
+四.学习资源推荐:
+
+01.Apache 官网
+
+02.Stackoverflow
+
+04.github
+
+03.Cloudra官网
+
+04.Databrick官网
+
+05.过往的记忆（技术博客）
+
+06.CSDN，51CTO
+
+07.至于书籍当当一搜会有很多，其实内容都差不多。
+
+最后但却很重要一点:要多关注技术动向，持续学习。
+
+编辑于 2018-04-16
+
+知乎用户
+
+数据挖掘话题的优秀回答者
+
+前提说一下，大数据是个很笼统的和模糊的概念。凡是动不动说大数据的，都是半吊子
+
+“大数据“对于我们这些从业者来说，是不太喜欢说的一个词。所谓内行看门道，外行看热闹，”大数据“这两年风风火火，大家都争先恐后的讨论着，但说到如何掌握或者运用，很多人是不知所措的。
+
+私以为，大数据的核心在三个地方：数学+计算机知识+业务
+
+先说说题主说到的编程，我在这里将它纳入计算机知识这一部分，因为编程对于我们来说只是大数据的冰山一角。这两年大数据的发展，绝对不是因为编程语言的进步，很大一部分是由于计算机工具的进步或者硬件的提升。尤其是现在计算机硬件价格的下跌，以及大数据处理工具的发展，如hadoop,spark等，带来了数据处理能力的飞速提升，才导致了现在大数据的越来越火。
+
+至于我们说的数据挖掘知识和编程语言，这些都是很早以前就已经存在的知识，这几年也没有得到很令人惊喜的新进展（我说的是知识本身，不是指应用）。
+
+总之：大数据之所以得到人们关注，最重要的是数据处理工具的进步以及数据量的累积（尤其是互联网）
+
+那么是不是说明掌握编程或者计算机工具就是迈入大数据的关键路径呢？
+
+答案：显然不是，数学才是真正的核心知识。
+
+没错，数学是在数据挖掘领域非常重要的甚至是核心的部分，编程只是工具，真的只是工具。编程语言有好几十种吗，但是数据挖掘理论知识就那儿点。你用任何一门语言去实现你的数学思想便可以达到数据挖掘的目标。学术研究甚至可以抛弃编程，完全只研究算法（注意：这样的话会容易造成纸上谈兵）。
+
+工业上应用必须讲究用编程去实现算法并加以调优。因此在学习的时候要摆正位置：数学很重要，编程知识语言。 很多同学上来就开始学编程，学了一年半载我估计你也不知道什么是数据挖掘。
+
+因此，简单的小结一下：
+
+先去学习数学知识，这里涉及到：
+
+统计学
+
+概率论
+
+线性代数
+
+数据挖掘
+
+机器学习
+
+等
+
+然后学习一门可用的语言，容易上手的语言（这个对新手很重要，如果你去学习c++或者java，我保证你会死的很惨）：
+
+这里当然要推荐R和PYTHON了，不服来辩
+
+然后去找找带案列和代码的书籍读一读，了解一下具体的算法是怎么在现实中应用的
+
+最后提高的部分就太多了,linux,数据库,分布式等。这个你需要自己去探索，补充自己所需要的就可以！
+
+最后：不要将“大数据”经常挂在嘴边~~
+
+感兴趣的同学，可以关注一下我们的公众号，学数据分析的：
+
+soton2014sky
+
+编辑于 2015-08-17
+
+面包君
+
+前支付宝人/私募投资理财，公众号@面包茶话会
+
+既然聊到想找大数据技术相关的工作，而且楼主强调的是大数据“技术”，简单分享下自己BAT招人和开发经验供参考下吧。
+
+常见的数据技术岗位分为：算法挖掘、数据仓库、架构师、ETL研发和分析技术等相关的岗位。
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+算法挖掘：
+
+
+数据仓库研发：
+
+数据架构：
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+而主要的输出方向应用有：数据底层搭建、推荐平台搭建、算法模型等应用。
+
+楼主可以自行参考下。
+
+就酱紫。有时间来补充。
+
+15275961.74511
+
+发布于 2015-08-15
+
+大数据二三事
+
+微信公众号：大数据二三事
+
+真想学的话，看看我们这个微信号，许多你想要的答案都能够接近！再说了，没必要被所谓的大神们唬住，技术也有循序渐进的过程，我们单位招的几个实习生，没多久就很快上手了，只要有一定的编程知识和学习的热情，大数据技术的工作没那么难的。
+
+编辑于 2017-03-27
+
+青牛
+
+海牛学院创始人，专注大数据人才培训。国内首批大数据从业者，大数据专家
+
+大数据处理技术怎么学习呢？首先我们要学习Java语言和Linux操作系统，这两个是学习大数据的基础，学习的顺序不分前后。
+Java：大家都知道Java的方向有JavaSE、JavaEE、JavaME，学习大数据要学习那个方向呢？
+只需要学习Java的标准版JavaSE就可以了，像Servlet、JSP、Tomcat、Struts、Spring、Hibernate，Mybatis都是JavaEE方向的技术在大数据技术里用到的并不多，只需要了解就可以了，当然Java怎么连接数据库还是要知道的，像JDBC一定要掌握一下，有同学说Hibernate或Mybites也能连接数据库啊，为什么不学习一下，我这里不是说学这些不好，而是说学这些可能会用你很多时间，到最后工作中也不常用，我还没看到谁做大数据处理用到这两个东西的，当然你的精力很充足的话，可以学学Hibernate或Mybites的原理，不要只学API，这样可以增加你对Java操作数据库的理解，因为这两个技术的核心就是Java的反射加上JDBC的各种使用。
+Linux：因为大数据相关软件都是在Linux上运行的，所以Linux要学习的扎实一些，学好Linux对你快速掌握大数据相关技术会有很大的帮助，能让你更好的理解hadoop、hive、hbase、spark等大数据软件的运行环境和网络环境配置，能少踩很多坑，学会shell就能看懂脚本这样能更容易理解和配置大数据集群。还能让你对以后新出的大数据技术学习起来更快。
+好说完基础了，再说说还需要学习哪些大数据技术，可以按我写的顺序学下去。#
+Hadoop：这是现在流行的大数据处理平台几乎已经成为大数据的代名词，所以这个是必学的。Hadoop里面包括几个组件HDFS、MapReduce和YARN，HDFS是存储数据的地方就像我们电脑的硬盘一样文件都存储在这个上面，MapReduce是对数据进行处理计算的，它有个特点就是不管多大的数据只要给它时间它就能把数据跑完，但是时间可能不是很快所以它叫数据的批处理。YARN是体现Hadoop平台概念的重要组件有了它大数据生态体系的其它软件就能在hadoop上运行了，这样就能更好的利用HDFS大存储的优势和节省更多的资源比如我们就不用再单独建一个spark的集群了，让它直接跑在现有的hadoop yarn上面就可以了。其实把Hadoop的这些组件学明白你就能做大数据的处理了，只不过你现在还可能对&quot;大数据&quot;到底有多大还没有个太清楚的概念，听我的别纠结这个。等以后你工作了就会有很多场景遇到几十T/几百T大规模的数据，到时候你就不会觉得数据大真好，越大越有你头疼的。当然别怕处理这么大规模的数据，因为这是你的价值所在，让那些个搞Javaee的php的html5的和DBA的羡慕去吧。记住学到这里可以作为你学大数据的一个节点。#
+Zookeeper：这是个万金油，安装Hadoop的HA的时候就会用到它，以后的Hbase也会用到它。它一般用来存放一些相互协作的信息，这些信息比较小一般不会超过1M，都是使用它的软件对它有依赖，对于我们个人来讲只需要把它安装正确，让它正常的run起来就可以了。
+Mysql：我们学习完大数据的处理了，接下来学习学习小数据的处理工具mysql数据库，因为一会装hive的时候要用到，mysql需要掌握到什么层度那？你能在Linux上把它安装好，运行起来，会配置简单的权限，修改root的密码，创建数据库。这里主要的是学习SQL的语法，因为hive的语法和这个非常相似。
+Sqoop：这个是用于把Mysql里的数据导入到Hadoop里的。当然你也可以不用这个，直接把Mysql数据表导出成文件再放到HDFS上也是一样的，当然生产环境中使用要注意Mysql的压力。
+Hive：这个东西对于会SQL语法的来说就是神器，它能让你处理大数据变的很简单，不会再费劲的编写MapReduce程序。有的人说Pig那？它和Pig差不多掌握一个就可以了。
+Oozie：既然学会Hive了，我相信你一定需要这个东西，它可以帮你管理你的Hive或者MapReduce、Spark脚本，还能检查你的程序是否执行正确，出错了给你发报警并能帮你重试程序，最重要的是还能帮你配置任务的依赖关系。我相信你一定会喜欢上它的，不然你看着那一大堆脚本，和密密麻麻的crond是不是有种想屎的感觉。
+Hbase：这是Hadoop生态体系中的NOSQL数据库，他的数据是按照key和value的形式存储的并且key是唯一的，所以它能用来做数据的排重，它与MYSQL相比能存储的数据量大很多。所以他常被用于大数据处理完成之后的存储目的地。
+Kafka：这是个比较好用的队列工具，队列是干吗的？排队买票你知道不？数据多了同样也需要排队处理，这样与你协作的其它同学不会叫起来，你干吗给我这么多的数据（比如好几百G的文件）我怎么处理得过来，你别怪他因为他不是搞大数据的，你可以跟他讲我把数据放在队列里你使用的时候一个个拿，这样他就不在抱怨了马上灰流流的去优化他的程序去了，因为处理不过来就是他的事情。而不是你给的问题。当然我们也可以利用这个工具来做线上实时数据的入库或入HDFS，这时你可以与一个叫Flume的工具配合使用，它是专门用来提供对数据进行简单处理，并写到各种数据接受方（比如Kafka）的。
+Spark：它是用来弥补基于MapReduce处理数据速度上的缺点，它的特点是把数据装载到内存中计算而不是去读慢的要死进化还特别慢的硬盘。特别适合做迭代运算，所以算法流们特别稀饭它。它是用scala编写的。Java语言或者Scala都可以操作它，因为它们都是用JVM的。
+会这些东西你就成为一个专业的大数据开发工程师了，月薪2W都是小毛毛雨
+后续提高
+：当然还是有很有可以提高的地方，比如学习下python，可以用它来编写网络爬虫。这样我们就可以自己造数据了，网络上的各种数据你高兴都可以下载到你的集群上去处理。
+
+最后再学习下推荐、分类等算法的原理这样你能更好的与算法工程师打交通。这样你的公司就更离不开你了，大家都会对你喜欢的不要不要的。
+
+发布于 2018-01-17
+
+下载知乎客户端
+
+与世界分享知识、经验和见解
+
+相关问题
+
+达到多大规模的数据，才值得用大数据的方式来处理？12 个回答
+
+机器学习中如何处理缺失数据？25 个回答
+
+有哪些值得推荐的数据可视化工具？228 个回答
+
+王家林的技术水平到底咋样？14 个回答
+
+如何查找202万个数据中重复次数为n的数据？20 个回答
+
+相关推荐
+
+如何进入 BAT 从事大数据
+
+917 人参与
+
+打造高质量技术面试简历
+
+ThinkerJesse
+
+45 人参与
+
+数据科学入门
+
+Joel Grus
+
+62 人读过​阅读
+
+
+应用工作
+
+侵权举报网上有害信息举报专区
+
+违法和不良信息举报：010-82716601
+
+儿童色情信息举报专区
+
+联系我们 © 2018 知乎
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br><span class="line-number">114</span><br><span class="line-number">115</span><br><span class="line-number">116</span><br><span class="line-number">117</span><br><span class="line-number">118</span><br><span class="line-number">119</span><br><span class="line-number">120</span><br><span class="line-number">121</span><br><span class="line-number">122</span><br><span class="line-number">123</span><br><span class="line-number">124</span><br><span class="line-number">125</span><br><span class="line-number">126</span><br><span class="line-number">127</span><br><span class="line-number">128</span><br><span class="line-number">129</span><br><span class="line-number">130</span><br><span class="line-number">131</span><br><span class="line-number">132</span><br><span class="line-number">133</span><br><span class="line-number">134</span><br><span class="line-number">135</span><br><span class="line-number">136</span><br><span class="line-number">137</span><br><span class="line-number">138</span><br><span class="line-number">139</span><br><span class="line-number">140</span><br><span class="line-number">141</span><br><span class="line-number">142</span><br><span class="line-number">143</span><br><span class="line-number">144</span><br><span class="line-number">145</span><br><span class="line-number">146</span><br><span class="line-number">147</span><br><span class="line-number">148</span><br><span class="line-number">149</span><br><span class="line-number">150</span><br><span class="line-number">151</span><br><span class="line-number">152</span><br><span class="line-number">153</span><br><span class="line-number">154</span><br><span class="line-number">155</span><br><span class="line-number">156</span><br><span class="line-number">157</span><br><span class="line-number">158</span><br><span class="line-number">159</span><br><span class="line-number">160</span><br><span class="line-number">161</span><br><span class="line-number">162</span><br><span class="line-number">163</span><br><span class="line-number">164</span><br><span class="line-number">165</span><br><span class="line-number">166</span><br><span class="line-number">167</span><br><span class="line-number">168</span><br><span class="line-number">169</span><br><span class="line-number">170</span><br><span class="line-number">171</span><br><span class="line-number">172</span><br><span class="line-number">173</span><br><span class="line-number">174</span><br><span class="line-number">175</span><br><span class="line-number">176</span><br><span class="line-number">177</span><br><span class="line-number">178</span><br><span class="line-number">179</span><br><span class="line-number">180</span><br><span class="line-number">181</span><br><span class="line-number">182</span><br><span class="line-number">183</span><br><span class="line-number">184</span><br><span class="line-number">185</span><br><span class="line-number">186</span><br><span class="line-number">187</span><br><span class="line-number">188</span><br><span class="line-number">189</span><br><span class="line-number">190</span><br><span class="line-number">191</span><br><span class="line-number">192</span><br><span class="line-number">193</span><br><span class="line-number">194</span><br><span class="line-number">195</span><br><span class="line-number">196</span><br><span class="line-number">197</span><br><span class="line-number">198</span><br><span class="line-number">199</span><br><span class="line-number">200</span><br><span class="line-number">201</span><br><span class="line-number">202</span><br><span class="line-number">203</span><br><span class="line-number">204</span><br><span class="line-number">205</span><br><span class="line-number">206</span><br><span class="line-number">207</span><br><span class="line-number">208</span><br><span class="line-number">209</span><br><span class="line-number">210</span><br><span class="line-number">211</span><br><span class="line-number">212</span><br><span class="line-number">213</span><br><span class="line-number">214</span><br><span class="line-number">215</span><br><span class="line-number">216</span><br><span class="line-number">217</span><br><span class="line-number">218</span><br><span class="line-number">219</span><br><span class="line-number">220</span><br><span class="line-number">221</span><br><span class="line-number">222</span><br><span class="line-number">223</span><br><span class="line-number">224</span><br><span class="line-number">225</span><br><span class="line-number">226</span><br><span class="line-number">227</span><br><span class="line-number">228</span><br><span class="line-number">229</span><br><span class="line-number">230</span><br><span class="line-number">231</span><br><span class="line-number">232</span><br><span class="line-number">233</span><br><span class="line-number">234</span><br><span class="line-number">235</span><br><span class="line-number">236</span><br><span class="line-number">237</span><br><span class="line-number">238</span><br><span class="line-number">239</span><br><span class="line-number">240</span><br><span class="line-number">241</span><br><span class="line-number">242</span><br><span class="line-number">243</span><br><span class="line-number">244</span><br><span class="line-number">245</span><br><span class="line-number">246</span><br><span class="line-number">247</span><br><span class="line-number">248</span><br><span class="line-number">249</span><br><span class="line-number">250</span><br><span class="line-number">251</span><br><span class="line-number">252</span><br><span class="line-number">253</span><br><span class="line-number">254</span><br><span class="line-number">255</span><br><span class="line-number">256</span><br><span class="line-number">257</span><br><span class="line-number">258</span><br><span class="line-number">259</span><br><span class="line-number">260</span><br><span class="line-number">261</span><br><span class="line-number">262</span><br><span class="line-number">263</span><br><span class="line-number">264</span><br><span class="line-number">265</span><br><span class="line-number">266</span><br><span class="line-number">267</span><br><span class="line-number">268</span><br><span class="line-number">269</span><br><span class="line-number">270</span><br><span class="line-number">271</span><br><span class="line-number">272</span><br><span class="line-number">273</span><br><span class="line-number">274</span><br><span class="line-number">275</span><br><span class="line-number">276</span><br><span class="line-number">277</span><br><span class="line-number">278</span><br><span class="line-number">279</span><br><span class="line-number">280</span><br><span class="line-number">281</span><br><span class="line-number">282</span><br><span class="line-number">283</span><br><span class="line-number">284</span><br><span class="line-number">285</span><br><span class="line-number">286</span><br><span class="line-number">287</span><br><span class="line-number">288</span><br><span class="line-number">289</span><br><span class="line-number">290</span><br><span class="line-number">291</span><br><span class="line-number">292</span><br><span class="line-number">293</span><br><span class="line-number">294</span><br><span class="line-number">295</span><br><span class="line-number">296</span><br><span class="line-number">297</span><br><span class="line-number">298</span><br><span class="line-number">299</span><br><span class="line-number">300</span><br><span class="line-number">301</span><br><span class="line-number">302</span><br><span class="line-number">303</span><br><span class="line-number">304</span><br><span class="line-number">305</span><br><span class="line-number">306</span><br><span class="line-number">307</span><br><span class="line-number">308</span><br><span class="line-number">309</span><br><span class="line-number">310</span><br><span class="line-number">311</span><br><span class="line-number">312</span><br><span class="line-number">313</span><br><span class="line-number">314</span><br><span class="line-number">315</span><br><span class="line-number">316</span><br><span class="line-number">317</span><br><span class="line-number">318</span><br><span class="line-number">319</span><br><span class="line-number">320</span><br><span class="line-number">321</span><br><span class="line-number">322</span><br><span class="line-number">323</span><br><span class="line-number">324</span><br><span class="line-number">325</span><br><span class="line-number">326</span><br><span class="line-number">327</span><br><span class="line-number">328</span><br><span class="line-number">329</span><br><span class="line-number">330</span><br><span class="line-number">331</span><br><span class="line-number">332</span><br><span class="line-number">333</span><br><span class="line-number">334</span><br><span class="line-number">335</span><br><span class="line-number">336</span><br><span class="line-number">337</span><br><span class="line-number">338</span><br><span class="line-number">339</span><br><span class="line-number">340</span><br><span class="line-number">341</span><br><span class="line-number">342</span><br><span class="line-number">343</span><br><span class="line-number">344</span><br><span class="line-number">345</span><br><span class="line-number">346</span><br><span class="line-number">347</span><br><span class="line-number">348</span><br><span class="line-number">349</span><br><span class="line-number">350</span><br><span class="line-number">351</span><br><span class="line-number">352</span><br><span class="line-number">353</span><br><span class="line-number">354</span><br><span class="line-number">355</span><br><span class="line-number">356</span><br><span class="line-number">357</span><br><span class="line-number">358</span><br><span class="line-number">359</span><br><span class="line-number">360</span><br><span class="line-number">361</span><br><span class="line-number">362</span><br><span class="line-number">363</span><br><span class="line-number">364</span><br><span class="line-number">365</span><br><span class="line-number">366</span><br><span class="line-number">367</span><br><span class="line-number">368</span><br><span class="line-number">369</span><br><span class="line-number">370</span><br><span class="line-number">371</span><br><span class="line-number">372</span><br><span class="line-number">373</span><br><span class="line-number">374</span><br><span class="line-number">375</span><br><span class="line-number">376</span><br><span class="line-number">377</span><br><span class="line-number">378</span><br><span class="line-number">379</span><br><span class="line-number">380</span><br><span class="line-number">381</span><br><span class="line-number">382</span><br><span class="line-number">383</span><br><span class="line-number">384</span><br><span class="line-number">385</span><br><span class="line-number">386</span><br><span class="line-number">387</span><br><span class="line-number">388</span><br><span class="line-number">389</span><br><span class="line-number">390</span><br><span class="line-number">391</span><br><span class="line-number">392</span><br><span class="line-number">393</span><br><span class="line-number">394</span><br><span class="line-number">395</span><br><span class="line-number">396</span><br><span class="line-number">397</span><br><span class="line-number">398</span><br><span class="line-number">399</span><br><span class="line-number">400</span><br><span class="line-number">401</span><br><span class="line-number">402</span><br><span class="line-number">403</span><br><span class="line-number">404</span><br><span class="line-number">405</span><br><span class="line-number">406</span><br><span class="line-number">407</span><br><span class="line-number">408</span><br><span class="line-number">409</span><br><span class="line-number">410</span><br><span class="line-number">411</span><br><span class="line-number">412</span><br><span class="line-number">413</span><br><span class="line-number">414</span><br><span class="line-number">415</span><br><span class="line-number">416</span><br><span class="line-number">417</span><br><span class="line-number">418</span><br><span class="line-number">419</span><br><span class="line-number">420</span><br><span class="line-number">421</span><br><span class="line-number">422</span><br><span class="line-number">423</span><br><span class="line-number">424</span><br><span class="line-number">425</span><br><span class="line-number">426</span><br><span class="line-number">427</span><br><span class="line-number">428</span><br><span class="line-number">429</span><br><span class="line-number">430</span><br><span class="line-number">431</span><br><span class="line-number">432</span><br><span class="line-number">433</span><br><span class="line-number">434</span><br><span class="line-number">435</span><br><span class="line-number">436</span><br><span class="line-number">437</span><br><span class="line-number">438</span><br><span class="line-number">439</span><br><span class="line-number">440</span><br><span class="line-number">441</span><br><span class="line-number">442</span><br><span class="line-number">443</span><br><span class="line-number">444</span><br><span class="line-number">445</span><br><span class="line-number">446</span><br><span class="line-number">447</span><br><span class="line-number">448</span><br><span class="line-number">449</span><br><span class="line-number">450</span><br><span class="line-number">451</span><br><span class="line-number">452</span><br><span class="line-number">453</span><br><span class="line-number">454</span><br><span class="line-number">455</span><br><span class="line-number">456</span><br><span class="line-number">457</span><br><span class="line-number">458</span><br><span class="line-number">459</span><br><span class="line-number">460</span><br><span class="line-number">461</span><br><span class="line-number">462</span><br><span class="line-number">463</span><br><span class="line-number">464</span><br><span class="line-number">465</span><br><span class="line-number">466</span><br><span class="line-number">467</span><br><span class="line-number">468</span><br><span class="line-number">469</span><br><span class="line-number">470</span><br><span class="line-number">471</span><br><span class="line-number">472</span><br><span class="line-number">473</span><br><span class="line-number">474</span><br><span class="line-number">475</span><br><span class="line-number">476</span><br><span class="line-number">477</span><br><span class="line-number">478</span><br><span class="line-number">479</span><br><span class="line-number">480</span><br><span class="line-number">481</span><br><span class="line-number">482</span><br><span class="line-number">483</span><br><span class="line-number">484</span><br><span class="line-number">485</span><br><span class="line-number">486</span><br><span class="line-number">487</span><br><span class="line-number">488</span><br><span class="line-number">489</span><br><span class="line-number">490</span><br><span class="line-number">491</span><br><span class="line-number">492</span><br><span class="line-number">493</span><br><span class="line-number">494</span><br><span class="line-number">495</span><br><span class="line-number">496</span><br><span class="line-number">497</span><br><span class="line-number">498</span><br><span class="line-number">499</span><br><span class="line-number">500</span><br><span class="line-number">501</span><br><span class="line-number">502</span><br><span class="line-number">503</span><br><span class="line-number">504</span><br><span class="line-number">505</span><br><span class="line-number">506</span><br><span class="line-number">507</span><br><span class="line-number">508</span><br><span class="line-number">509</span><br><span class="line-number">510</span><br><span class="line-number">511</span><br><span class="line-number">512</span><br><span class="line-number">513</span><br><span class="line-number">514</span><br><span class="line-number">515</span><br><span class="line-number">516</span><br><span class="line-number">517</span><br><span class="line-number">518</span><br><span class="line-number">519</span><br><span class="line-number">520</span><br><span class="line-number">521</span><br><span class="line-number">522</span><br><span class="line-number">523</span><br><span class="line-number">524</span><br><span class="line-number">525</span><br><span class="line-number">526</span><br><span class="line-number">527</span><br><span class="line-number">528</span><br><span class="line-number">529</span><br><span class="line-number">530</span><br><span class="line-number">531</span><br><span class="line-number">532</span><br><span class="line-number">533</span><br><span class="line-number">534</span><br><span class="line-number">535</span><br><span class="line-number">536</span><br><span class="line-number">537</span><br><span class="line-number">538</span><br><span class="line-number">539</span><br><span class="line-number">540</span><br><span class="line-number">541</span><br><span class="line-number">542</span><br><span class="line-number">543</span><br><span class="line-number">544</span><br><span class="line-number">545</span><br><span class="line-number">546</span><br><span class="line-number">547</span><br><span class="line-number">548</span><br><span class="line-number">549</span><br><span class="line-number">550</span><br><span class="line-number">551</span><br><span class="line-number">552</span><br><span class="line-number">553</span><br><span class="line-number">554</span><br><span class="line-number">555</span><br><span class="line-number">556</span><br><span class="line-number">557</span><br><span class="line-number">558</span><br><span class="line-number">559</span><br><span class="line-number">560</span><br><span class="line-number">561</span><br><span class="line-number">562</span><br><span class="line-number">563</span><br><span class="line-number">564</span><br><span class="line-number">565</span><br><span class="line-number">566</span><br><span class="line-number">567</span><br><span class="line-number">568</span><br><span class="line-number">569</span><br><span class="line-number">570</span><br><span class="line-number">571</span><br><span class="line-number">572</span><br><span class="line-number">573</span><br><span class="line-number">574</span><br><span class="line-number">575</span><br><span class="line-number">576</span><br><span class="line-number">577</span><br><span class="line-number">578</span><br><span class="line-number">579</span><br><span class="line-number">580</span><br><span class="line-number">581</span><br><span class="line-number">582</span><br><span class="line-number">583</span><br><span class="line-number">584</span><br><span class="line-number">585</span><br><span class="line-number">586</span><br><span class="line-number">587</span><br><span class="line-number">588</span><br><span class="line-number">589</span><br><span class="line-number">590</span><br><span class="line-number">591</span><br><span class="line-number">592</span><br><span class="line-number">593</span><br><span class="line-number">594</span><br><span class="line-number">595</span><br><span class="line-number">596</span><br><span class="line-number">597</span><br><span class="line-number">598</span><br><span class="line-number">599</span><br><span class="line-number">600</span><br><span class="line-number">601</span><br><span class="line-number">602</span><br><span class="line-number">603</span><br><span class="line-number">604</span><br><span class="line-number">605</span><br><span class="line-number">606</span><br><span class="line-number">607</span><br><span class="line-number">608</span><br><span class="line-number">609</span><br><span class="line-number">610</span><br><span class="line-number">611</span><br><span class="line-number">612</span><br><span class="line-number">613</span><br><span class="line-number">614</span><br><span class="line-number">615</span><br><span class="line-number">616</span><br><span class="line-number">617</span><br><span class="line-number">618</span><br><span class="line-number">619</span><br><span class="line-number">620</span><br><span class="line-number">621</span><br><span class="line-number">622</span><br><span class="line-number">623</span><br><span class="line-number">624</span><br><span class="line-number">625</span><br><span class="line-number">626</span><br><span class="line-number">627</span><br><span class="line-number">628</span><br><span class="line-number">629</span><br><span class="line-number">630</span><br><span class="line-number">631</span><br><span class="line-number">632</span><br><span class="line-number">633</span><br><span class="line-number">634</span><br><span class="line-number">635</span><br><span class="line-number">636</span><br><span class="line-number">637</span><br><span class="line-number">638</span><br><span class="line-number">639</span><br><span class="line-number">640</span><br><span class="line-number">641</span><br><span class="line-number">642</span><br><span class="line-number">643</span><br><span class="line-number">644</span><br><span class="line-number">645</span><br><span class="line-number">646</span><br><span class="line-number">647</span><br><span class="line-number">648</span><br><span class="line-number">649</span><br><span class="line-number">650</span><br><span class="line-number">651</span><br><span class="line-number">652</span><br><span class="line-number">653</span><br><span class="line-number">654</span><br><span class="line-number">655</span><br><span class="line-number">656</span><br><span class="line-number">657</span><br><span class="line-number">658</span><br><span class="line-number">659</span><br><span class="line-number">660</span><br><span class="line-number">661</span><br><span class="line-number">662</span><br><span class="line-number">663</span><br><span class="line-number">664</span><br><span class="line-number">665</span><br><span class="line-number">666</span><br><span class="line-number">667</span><br><span class="line-number">668</span><br><span class="line-number">669</span><br><span class="line-number">670</span><br><span class="line-number">671</span><br><span class="line-number">672</span><br><span class="line-number">673</span><br><span class="line-number">674</span><br><span class="line-number">675</span><br><span class="line-number">676</span><br><span class="line-number">677</span><br><span class="line-number">678</span><br><span class="line-number">679</span><br><span class="line-number">680</span><br><span class="line-number">681</span><br><span class="line-number">682</span><br><span class="line-number">683</span><br><span class="line-number">684</span><br><span class="line-number">685</span><br><span class="line-number">686</span><br><span class="line-number">687</span><br><span class="line-number">688</span><br><span class="line-number">689</span><br><span class="line-number">690</span><br><span class="line-number">691</span><br><span class="line-number">692</span><br><span class="line-number">693</span><br><span class="line-number">694</span><br><span class="line-number">695</span><br><span class="line-number">696</span><br><span class="line-number">697</span><br></div></div></div></div> <div class="page-slot page-slot-bottom"><!-- 横向自适应 -->
+      <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-7828333725993554"
+          data-ad-slot="6620245489"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script></div> <div class="page-edit"><div class="edit-link"><a href="https://github.com/colderleo/edit/master/docs/_posts/20.待学习.md" target="_blank" rel="noopener noreferrer">编辑</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2021/10/28, 11:41:43</span></div></div> <div class="page-nav-wapper"><!----> <!----></div></div> <div class="article-list"><div class="article-title"><a href="/archives/" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/pages/3ba0f1/"><div>
+            通过模板实现结构体成员拷贝-按成员名匹配
+            <!----></div></a> <span class="date">05-07</span></dt></dl><dl><dd>02</dd> <dt><a href="/pages/14706a/"><div>
+            c++17通过模板获取类成员的个数
+            <!----></div></a> <span class="date">05-01</span></dt></dl><dl><dd>03</dd> <dt><a href="/pages/73e20c/"><div>
+            avx-sse切换惩罚
+            <!----></div></a> <span class="date">04-30</span></dt></dl> <dl><dd></dd> <dt><a href="/archives/" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><div class="icons"><a href="mailto:gaoliu@zju.edu.cn" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://gitee.com/colderleo" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="https://music.163.com/#/playlist?id=755597173" title="听音乐" target="_blank" class="iconfont icon-erji"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2019-2023
+    <span>Colder Leo | <a href="" target="_blank">MIT License</a></span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <div class="custom-html-window custom-html-window-rb" style="display:;"><div class="custom-wrapper"><span class="close-but">×</span> <div><!-- 固定160*160px -->
+      <ins class="adsbygoogle"
+          style="display:inline-block;max-width:160px;max-height:160px"
+          data-ad-client="ca-pub-7828333725993554"
+          data-ad-slot="8377369658"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+      </div></div></div></div><div class="global-ui"><div></div></div></div>
+    <script src="/assets/js/app.acb122c8.js" defer></script><script src="/assets/js/2.a45f491a.js" defer></script><script src="/assets/js/338.c50c6175.js" defer></script>
+  </body>
+</html>
